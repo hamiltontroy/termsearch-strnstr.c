@@ -12,5 +12,5 @@ int main()
     location = (char *)termsearch((unsigned char *)bucket, 
         (unsigned char *)query, 16, 3);
 
-    printf("%s\n", location);
+    printf("%s\n", location); // prints out "ABCDEF"
 }
