@@ -65,7 +65,7 @@ unsigned char *termsearch(unsigned char *bucket, unsigned char *term, const long
     The above algorithm can be sped up in the following ways:
     
     Instead of searching and comparing 8 bits at a time,
-    it can be modified to search either 32 bytes or 64 bytes at a time
+    it can be modified to search either 32 bits or 64 bits at a time
     based on what architecture the system is.
     
     The reason why it does not implement that is:
