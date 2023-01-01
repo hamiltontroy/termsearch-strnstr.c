@@ -46,3 +46,23 @@ const T *termsearch(const T bucket[], const T term[], const N bucketlen, const N
     
     return termstart;
 }
+
+/* //EXAMPLE
+int main()
+{
+    using namespace std;
+    
+    auto s = "abcde";
+    auto q = "d";
+    
+    auto r = termsearch(s, q, 5, 1);
+    
+    int a[4] = {0,1,2,3};
+    int b[2] = {1,2};
+    
+    auto c = termsearch(a, b, 4, 2);
+    
+    std::cout << r << std::endl;        // prints de
+    std::cout << *c << std::endl;       // prints 1
+}
+*/
