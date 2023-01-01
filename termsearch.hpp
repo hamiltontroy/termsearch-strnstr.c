@@ -48,6 +48,7 @@ const T *termsearch(const T bucket[], const T term[], const N bucketlen, const N
 }
 
 /* //EXAMPLE
+#include <iostream>
 int main()
 {
     using namespace std;
