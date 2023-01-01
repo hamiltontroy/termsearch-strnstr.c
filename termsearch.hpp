@@ -1,5 +1,5 @@
 template <typename T, typename N>
-const T *termsearch(const T *bucket, const T *term, const N bucketlen, const N termlen)
+const T *termsearch(const T bucket[], const T term[], const N bucketlen, const N termlen)
 {
     if(termlen > bucketlen) // prevents a waste of time
         return nullptr;
